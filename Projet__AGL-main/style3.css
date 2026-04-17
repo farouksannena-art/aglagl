@@ -1,0 +1,113 @@
+/* style3.css */
+/* Complément aux styles existants pour la partie nutrition */
+
+/* Réutilisation des couleurs du projet */
+:root {
+    --bg-dark: #1a1a2e;
+    --bg-card: #16213e;
+    --border-color: #0f3460;
+    --primary: #5b9bd5;
+    --success: #2ecc71;
+    --warning: #f39c12;
+    --danger: #e74c3c;
+}
+
+/* Styles communs pour toutes les pages nutrition */
+.nutrition-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nutrition-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.nutrition-card h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-left: 3px solid var(--primary);
+    padding-left: 15px;
+}
+
+/* Grilles et tableaux */
+.nutrition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table th {
+    background: var(--border-color);
+    padding: 12px;
+    text-align: left;
+    color: var(--primary);
+}
+
+.nutrition-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Badges et indicateurs */
+.badge-success {
+    background: var(--success);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+.badge-warning {
+    background: var(--warning);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+.badge-danger {
+    background: var(--danger);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+/* Liens et boutons */
+.nutrition-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.nutrition-btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.nutrition-btn-primary:hover {
+    background: #4a8ac4;
+}
+
+.nutrition-btn-success {
+    background: var(--success);
+    color: white;
+}
+
+.nutrition-btn-success:hover {
+    background: #27ae60;
+}

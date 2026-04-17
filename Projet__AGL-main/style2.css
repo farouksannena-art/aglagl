@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+height:100vh;
+}
+
+
+
+.container{
+display:flex;
+height:100vh;
+}
+
+
+
+.left-side{
+width:50%;
+position:relative;
+}
+
+.left-side img{
+width:100%;
+height:100%;
+object-fit:cover;
+filter:brightness(80%);
+}
+
+/* RIGHT FORM SIDE */
+
+.right-side{
+width:50%;
+background:#111827;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* FORM CONTENT */
+
+.form-content{
+width:350px;
+color:white;
+}
+
+/* LOGO */
+
+.logo{
+width:70px;
+margin-bottom:20px;
+}
+
+/* TITLE */
+
+h2{
+margin-bottom:25px;
+}
+
+/* LABELS */
+
+label{
+font-size:14px;
+color:#d1d5db;
+}
+
+/* INPUTS */
+
+input{
+width:100%;
+padding:12px;
+margin-top:6px;
+margin-bottom:15px;
+border-radius:8px;
+border:1px solid #374151;
+background:#1f2937;
+color:white;
+}
+
+/* BUTTON */
+
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:8px;
+background:#2563eb;
+color:white;
+font-size:15px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+/* LOGIN LINK */
+
+.login-link{
+margin-top:15px;
+font-size:14px;
+}
+
+.login-link a{
+color:#60a5fa;
+text-decoration:none;
+}

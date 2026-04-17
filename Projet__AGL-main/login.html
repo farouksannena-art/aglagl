@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Fit Planner Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <div class="login-box">
+
+        <img src="FullLogo_Transparent_NoBuffer.png" class="logo">
+
+        <h2>Login to your account</h2>
+
+        <!-- ✅ AJOUT FORM (liaison avec PHP) -->
+        <form action="login.php" method="POST">
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password">
+
+            <button class="login-btn" type="submit">Log In</button>
+
+        </form>
+        <!-- ✅ FIN AJOUT -->
+
+        <p class="signup-link">
+            Don't have an account ? <a href="register.html">Sign Up</a>
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
